@@ -1,0 +1,79 @@
+
+@media screen and (max-width:768px){
+    body, .bnb{width: 100%;}
+    form input{height: 10vw;}
+    .logo{height:20vw;}
+    .find{height: 5vw;}
+    .button{height: 10vw;line-height: 10vw;}
+    
+}
+@media screen and (min-width:769px){
+    body, .bnb{width: 768px;margin: auto}
+    form input{height: 76.8px;}
+    .logo{height:153.6px;}
+    .find{height: 38.4px;}
+    .button{height: 76.7px;line-height: 76.8px;}
+}
+body{
+    background: #eee;
+    padding-top:20%;
+}
+.logo{
+    width: 20%;
+    margin: auto;
+    background-image: url('../images/icons/android-chrome-512x512.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 5%
+}
+h1{
+    width: fit-content;
+    margin: auto;
+    margin-bottom: 10%;
+}
+form{width: 70%;margin: auto;}
+form input{
+    width: 100%;
+    background: white;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 0 3%;
+    box-sizing: border-box;
+}
+
+.find{
+    width: 100%;
+    margin-bottom: 10%;
+}
+
+.find_id{
+    float: left;
+    width: 50%;
+    text-align: center;
+    box-sizing: border-box;
+    border-right: 1px solid black
+}
+.find_pwd{
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+
+.button_wrap{
+    width: 100%;
+}
+
+.button{
+    width: 100%;
+    margin-bottom: 5%;
+    background: #726eff;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.button a{
+    color:white;
+}

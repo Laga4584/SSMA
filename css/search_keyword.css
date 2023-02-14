@@ -1,0 +1,205 @@
+
+@media screen and (max-width:768px){
+    .keyword_list{width: 100%;height: 12vw;line-height: 12vw;}
+    .selected_keywords{height: 12vw;line-height: 12vw;}
+    .novels li{height: 40vw;}
+}
+@media screen and (min-width:769px){
+    .keyword_list{width: 768px;margin: auto;height: 92.16px;line-height: 92.16px;}
+    .selected_keywords{height: 92.16px; line-height: 92.16px;}
+    .novels li{height: 307.2px;}
+}
+body{
+    background: #eee;
+}
+.page_title{
+    background: #212B3B;
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding: 5% 0;
+    font-size: 2rem;}
+
+.keyword_list_wrap{
+    width: 100%;
+    color: white;
+}
+.keyword_list_wrap:nth-child(odd){
+    background: #726eff;
+}
+
+.keyword_list_wrap:nth-child(even){
+    background: #212B3B;
+}
+
+.keyword_list .desc{
+    float: left;
+    width: 15%;
+    padding-left: 5%;
+    box-sizing: border-box;
+    font-size: 1.2rem;
+    font-weight: bold;
+    }
+.keyword_list ul{
+    float: left;
+    width: 85%;
+    height: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap; 
+}
+.keyword_list li{
+    display: inline-block;
+    font-size: 1.2rem;
+    margin: 0 10%;
+}
+
+.keyword_list label{
+    /*
+    border: 1px solid #212B3B;
+    border-radius: 20%;
+    */
+    color: #5AFFE7;
+    padding: 20%
+}
+
+.keywords input[type="checkbox"]{
+    display: none;
+}
+
+.selected_keywords_wrap{
+    width: 100%;
+    background: #37465B;
+}
+
+.selected_keywords ul{
+    width: 100%;
+    height: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    border-bottom: 1px solid #726eff;
+}
+
+.selected_keywords li{
+    display: inline-block;
+    margin: 0 5%;
+}
+
+.selected_keywords button{
+    
+    padding: 20%;
+    font-size: 1.2rem;
+    color: #5AFFE7;
+}
+
+.result{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 2% 5%;
+}
+
+.result_info{
+    margin-bottom: 10%;
+}
+.result_info p{
+    float: left;
+    font-size: 1.6rem;
+}
+
+.align{
+    float: right;
+    font-size: 1.5rem;
+}
+
+.novels{
+    height: fit-content;
+    margin-bottom: 16vw;
+}
+
+.novels ul{
+    width: 100%;
+    height: fit-content;
+    display: block;
+    overflow: auto;
+}
+
+.novels li{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 5%;
+    background: white;
+    border-radius: 10px;
+    margin-bottom: 5%;
+}
+
+.novels .cover{
+    float: left;
+    width: 23%;
+    height: 100%;
+    margin-right: 5%;
+}
+
+.cover a{
+    background-image:url('../images/cover_m1.png'); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    text-indent: -9999px;
+}
+
+.novels .desc{
+    width: 72%;
+    box-sizing: border-box;
+    float: left;
+    padding: 3%;
+}
+
+.novels .title{
+    font-size: 1.6rem;
+    font-weight: bold;
+    margin-bottom: 5%;
+}
+
+/*임시*/
+.novels .cover_2{
+    float: left;
+    width: 23%;
+    height: 100%;
+    margin-right: 5%;
+}
+
+.cover_2 a{
+    background-image:url('../images/cover_m2.png'); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    text-indent: -9999px;
+}
+
+.novels .cover_3{
+    float: left;
+    width: 23%;
+    height: 100%;
+    margin-right: 5%;
+}
+
+.cover_3 a{
+    background-image:url('../images/cover_m4.png'); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    text-indent: -9999px;
+}

@@ -1,0 +1,89 @@
+/* 공통 클래스 */
+.blind{position:absolute;clip:rect(0 0 0 0);width:1px;height:1px;margin:-1px;overflow:hidden}
+.screen_out{overflow:hidden;position:absolute;width:0;height:0;line-height:0;text-indent: -9999px}
+.hide{position:absolute;left:-9999px;top:-9999px}
+
+
+@media screen and (max-width:768px){
+    html{font-size: calc(2vw + 3px);}
+    main{margin: 0 auto 16vw}
+    .bnb{width: 100%;height: 16vw;}
+}
+@media screen and (min-width:769px){
+    html{font-size: 18.36px}
+    main{margin: 0 auto 122.88px}
+    .bnb{width: 768px;margin: auto;height: 122.88px;}
+}
+
+.bnb_wrap{
+    width: 100%;
+    background: #37465B;
+    position: fixed;
+    bottom:0;
+}
+
+.bnb ul{
+    width: 100%;
+    height: 100%;
+    font-size: 1.3rem;
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.bnb li{
+    float: left;
+    width: 8%;
+    height: 70%
+}
+
+.bnb_novel a{
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    background-image: url('../images/novel.png');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: contain;
+    padding-top: 95%
+}
+
+.bnb_favorites a{
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    background-image: url('../images/heart.png');background-repeat: no-repeat;
+    background-position: top;
+    background-size: contain;
+    padding-top: 95%
+}
+
+/*
+.bnb_review a{
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    background-image: url('../images/review.png');background-repeat: no-repeat;
+    background-position: top;
+    background-size: contain;
+    padding-top: 95%
+}
+*/
+
+.bnb_mypage a{
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    background-image: url('../images/mypage.png');background-repeat: no-repeat;
+    background-position: top;
+    background-size: contain;
+    padding-top: 95%
+}
+.bnb a{
+    color: white;
+    text-align: center;
+}

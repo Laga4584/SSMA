@@ -1,0 +1,29 @@
+{
+     "name" : "소설모아",
+     "short_name" : "소설모아",
+     "description" : "소설모아",
+     "scope" : ".",
+     "start_url" : "./",
+     "display" : "fullscreen",
+     "orientation" : "portrait",
+     "theme_color" : "#37465B",
+     "background_color" : "#eeeeee",
+     "icons" : [
+        {
+            "src" : "images/icons/android-chrome-192x192.png",
+            "sizes" : "192x192",
+            "type" : "image/png"
+        },
+        {
+            "src" : "images/icons/android-chrome-256x256.png",
+            "sizes" : "256x256",
+            "type" : "image/png"
+        },
+        {
+            "src" : "images/icons/android-chrome-512x512.png",
+            "sizes" : "512x512",
+            "type" : "image/png"
+        }
+    ]
+}
+    

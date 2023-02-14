@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Roboto&display=swap');
+
+body,h1,h2,h3,p,div,ul,li,input, fieldset, legend, select{
+    margin:0;
+    padding:0
+}
+body{
+    font-family: "Roboto", "Nanum Gothic", "맑은 고딕", "돋움";
+}
+ul,li{
+    list-style:none
+}
+a{
+    text-decoration:none;
+    color:#000 /* inherit */
+}
+address{
+    font-style:normal
+}
+fieldset, input, select, button{
+    border: none;
+    background-color: transparent;
+}
+
+input:focus {outline: none;}

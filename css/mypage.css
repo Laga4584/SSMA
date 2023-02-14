@@ -1,0 +1,62 @@
+
+@media screen and (max-width:768px){
+    
+}
+@media screen and (min-width:769px){
+  
+}
+body{
+    background: #eee;
+}
+
+main{
+    width: 100%;
+    max-width: 768px;
+    box-sizing: border-box;
+    padding: 0 5%;
+}
+
+.prev{
+    position: absolute;
+    top: 2%;
+    left: 7%;
+    color: white;
+    font-size: 2rem;
+}
+
+.page_title{
+    background: #212B3B;
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding: 5% 0;
+    font-size: 2rem;}
+
+.menu{
+    background: white;
+    width: 100%;
+    padding-bottom: 5%;
+    margin-top: 5%;
+    border-radius: 10px;
+}
+
+.profile{
+    width: 90%;
+    margin: auto;
+    font-size: 2rem;
+    padding: 5% 0;
+}
+
+.menu li{
+    width: 90%;
+    margin: auto;
+    padding: 5% 0;
+    border-bottom: 2px solid lightslategray;
+
+}
+
+.menu a{
+    padding: 0 5% 0 0;
+    display:flex;
+    justify-content:space-between;
+}
